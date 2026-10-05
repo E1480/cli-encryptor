@@ -1,0 +1,15 @@
+[project]
+name = "cli-encryptor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cryptography>=50.0.2",
+    "typer>=0.27.2",
+]
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv"
+reportCallInDefaultInitializer = false
